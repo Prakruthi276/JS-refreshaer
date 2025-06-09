@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 let name="Harry";
 function App() {
-  const[mode,setMode]=useState('light');
+  const[mode,setMode]=useState('light');//it sets the mode to the initial state//
 
   const toggleMode=()=>{
     if (mode==='light'){
