@@ -23,7 +23,7 @@ function App() {
   
   return (
       <>
-    <Navbar  title="textUtils" mode={mode} toggleMode={toggleMode}/>
+    <Navbar  title="textUtils" mode={mode} toggleMode={toggleMode}/>//toggleMode//
      <TextForm heading="enter the text to the container"  mode={mode}/>
       {/*<About/>*/}
       
